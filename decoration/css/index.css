@@ -1,0 +1,170 @@
+@font-face {
+    font-family: 'Maledpan';
+    src: url('font/maledpan-regular-webfont.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+
+* {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Maledpan';
+}
+
+.favicon-image {
+    /* width: 2rem; */
+    margin-right: 1rem;
+}
+
+.navbar {
+    position: fixed;
+    width: 100%;
+}
+
+a.active:hover {
+    color: rgb(132, 132, 138) !important;
+}
+
+.top-container {
+    background-image: url('../../images/icon/background.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.top-container>h2 {
+    padding-top: 12rem;
+    padding-bottom: 10rem;
+}
+
+.navbar-brand {
+    font-weight: 570;
+    /* font-size: 1.7rem; */
+    color: rgb(39, 24, 92) !important;
+}
+
+.nav-item {
+    margin: auto 0.7rem;
+}
+
+.top-bible {
+    width: 50%;
+    margin-left: 40%;
+    line-height: 3.7rem;
+    color: #677079;
+}
+
+.top-bible-verse {
+    color: #2979c9;
+}
+
+.collapse-word {
+    margin-right: 0 !important;
+}
+
+.fas {
+    margin-right: 1.3rem;
+}
+
+.data-container h2 {
+    margin-top: 2.3rem;
+    text-align: center;
+    font-weight: 550;
+    color: rgb(39, 24, 92);
+    margin-bottom: 2.6rem;
+}
+
+.pastoral-team {
+    text-align: center;
+    padding-bottom: 2rem;
+}
+
+.pastor-data {
+    text-align: center;
+    justify-content: center;
+}
+
+.pastor-data>h3 {
+    margin-top: 2rem;
+}
+
+.church-news row {
+    padding: 20rem !important;
+}
+
+.image-protected {
+    pointer-events: none;
+}
+
+/* If the screen size is 768px wide or less, set the font-size of <div> to 30px */
+@media screen and (max-width: 768px) {
+    .top-bible {
+        font-size: 1.9rem;
+    }
+
+    .navbar-brand {
+        font-size: 1.3rem;
+    }
+
+    .favicon-image {
+        width: 1.7rem;
+    }
+
+    #top-menu {
+        font-size: 1.1rem;
+    }
+
+    .data-container h2 {
+        font-size: 1.5rem;
+    }
+
+    .pastor-picture {
+        width: 10rem;
+    }
+
+    .pastoral-team h2 {
+        margin: 3rem auto;
+    }
+
+    .pastor-data {
+        padding-top: 1.5rem;
+    }
+
+    .church-news-data {
+        margin-bottom: 2rem;
+    }
+}
+
+/* If the screen size is 769px wide or more, set the font-size of <div> to 80px */
+@media screen and (min-width: 769px) {
+    .top-bible {
+        font-size: 2.3rem;
+    }
+
+    .navbar-brand {
+        font-size: 1.7rem;
+    }
+
+    .favicon-image {
+        width: 2rem;
+    }
+
+    #top-menu {
+        font-size: 1.3rem;
+    }
+
+    .pastor-picture {
+        width: 16rem;
+    }
+
+    .pastor-data {
+        display: inline-block;
+        margin: auto 4rem;
+    }
+
+    .pastoral-team h2 {
+        margin: 4rem auto;
+    }
+}

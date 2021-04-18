@@ -1,0 +1,130 @@
+@font-face {
+    font-family: 'Maledpan';
+    src: url('font/maledpan-regular-webfont.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+
+* {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Maledpan';
+    background-color: #ddf0f0;
+}
+
+.favicon-image {
+    /* width: 2rem; */
+    margin-right: 1rem;
+}
+
+.navbar {
+    width: 100%;
+}
+
+a.active:hover {
+    color: rgb(132, 132, 138) !important;
+}
+
+.navbar-brand {
+    font-weight: 570;
+    /* font-size: 1.7rem; */
+    color: rgb(39, 24, 92) !important;
+}
+
+.nav-item {
+    margin: auto 0.7rem;
+}
+
+.collapse-word {
+    margin-right: 0 !important;
+}
+
+.data-container h2 {
+    margin-top: 2.3rem;
+    text-align: center;
+    font-weight: 550;
+    color: rgb(39, 24, 92);
+    margin-bottom: 2.6rem;
+}
+
+.image-protected {
+    pointer-events: none;
+}
+
+.data-container>h2 {
+    margin: 2.3rem auto;
+}
+
+.data-topic {
+    text-align: center;
+}
+
+.data-topic h2 {
+    font-weight: 600;
+}
+
+.image-topic {
+    text-align: center;
+}
+
+/* If the screen size is 768px wide or less, set the font-size of <div> to 30px */
+@media screen and (max-width: 768px) {
+    .navbar-brand {
+        font-size: 1.3rem;
+    }
+
+    .favicon-image {
+        width: 1.7rem;
+    }
+
+    #top-menu {
+        font-size: 1.1rem;
+    }
+
+    .data-container h2 {
+        font-size: 1.5rem;
+    }
+
+    .image-topic>img {
+        width: 80%;
+    }
+
+    .data-content p, .data-content li {
+        font-size: 1.1rem;
+        line-height: 2rem;
+    }
+
+    .data-content {
+        margin: 2rem 2rem;
+    }
+}
+
+/* If the screen size is 769px wide or more, set the font-size of <div> to 80px */
+@media screen and (min-width: 769px) {
+    .navbar-brand {
+        font-size: 1.7rem;
+    }
+
+    .favicon-image {
+        width: 2rem;
+    }
+
+    #top-menu {
+        font-size: 1.3rem;
+    }
+
+    .image-topic>img {
+        width: 50%;
+    }
+
+    .data-content p, .data-content li {
+        font-size: 1.5rem;
+        line-height: 2.7rem;
+    }
+
+    .data-content {
+        margin: 2rem 15rem;
+    }
+}
